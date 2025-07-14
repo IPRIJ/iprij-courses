@@ -3,252 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <!-- Frontend Development Course Section -->
-        <div class="card course-section">
-            <h3>💻 Développement Frontend</h3>
-            <p>HTML5, CSS3, JavaScript moderne, frameworks populaires et bonnes pratiques.</p>
-            <div class="course-stats">
-                <span class="stat">📚 2 cours disponibles</span>
-                <span class="stat">⏱️ ~25h</span>
-                <span class="stat">🎯 Tous niveaux</span>
-            </div>
-            <div class="course-links">
-                <a href="frontend/README.md" class="link">📚 Index de la formation</a>
-                <a href="frontend/javascript/fiche-js-fetch-api.md" class="link">🔗 Fetch API</a>
-                <a href="frontend/javascript/fiche-js-galerie-images.md" class="link">🖼️ Galerie d'images</a>
-                <a href="#" class="link disabled">⚡ JavaScript ES6+</a>
-            </div>
-        </div>tion - iprij.com</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.6;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }
-        .container {
-            background: white;
-            border-radius: 10px;
-            padding: 40px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        h1 {
-            color: #333;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .subtitle {
-            text-align: center;
-            color: #666;
-            margin-bottom: 40px;
-        }
-        .card {
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            padding: 20px;
-            margin: 20px 0;
-            transition: transform 0.2s;
-        }
-        .card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-        .card h3 {
-            color: #333;
-            margin-top: 0;
-        }
-        .link {
-            display: inline-block;
-            background: #667eea;
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            margin: 10px 10px 10px 0;
-            transition: background 0.2s;
-        }
-        .link:hover {
-            background: #5a6fd8;
-        }
-        .status {
-            background: #f8f9fa;
-            border-left: 4px solid #28a745;
-            padding: 15px;
-            margin: 20px 0;
-        }
-        .github-link {
-            text-align: center;
-            margin-top: 30px;
-        }
-        .course-section {
-            border-left: 4px solid #667eea;
-            background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
-        }
-        .course-stats {
-            display: flex;
-            gap: 15px;
-            margin: 15px 0;
-            flex-wrap: wrap;
-        }
-        .stat {
-            background: #e3f2fd;
-            color: #1976d2;
-            padding: 5px 12px;
-            border-radius: 15px;
-            font-size: 0.9em;
-            font-weight: 500;
-        }
-        .course-links {
-            margin-top: 20px;
-        }
-        .link.disabled {
-            background: #ddd;
-            color: #999;
-            cursor: not-allowed;
-        }
-        .link.disabled:hover {
-            background: #ddd;
-        }
-        .categories-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-        .category {
-            background: #f8f9fa;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 3px solid #667eea;
-        }
-        .category h4 {
-            margin: 0 0 15px 0;
-            color: #333;
-        }
-        .category ul {
-            margin: 0;
-            padding-left: 20px;
-        }
-        .category li {
-            margin: 8px 0;
-            color: #555;
-        }
-    </style>
+    <title>Formation iprij.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+    <link rel="stylesheet" href="app/app.css">
 </head>
 <body>
-    <div class="container">
-        <h1>🎓 Plateforme de Formation iprij.com</h1>
-        <p class="subtitle">Formations complètes en développement web et technologies modernes</p>
-        
-        <div class="status">
-            <strong>🎓 Statut :</strong> Cours en développement - Nouveau contenu ajouté régulièrement
-        </div>
-
-        <!-- WordPress Course Section -->
-        <div class="card course-section">
-            <h3>🌐 Formation WordPress</h3>
-            <p>Maîtrisez WordPress de A à Z : création de thèmes, développement avancé, et déploiement professionnel.</p>
-            <div class="course-stats">
-                <span class="stat">📚 15 cours</span>
-                <span class="stat">⏱️ ~20h</span>
-                <span class="stat">🎯 Débutant à Expert</span>
-            </div>
-            <div class="course-links">
-                <a href="wordpress/README.md" class="link">� Index de la formation</a>
-                <a href="wordpress/cours-qu-est-ce-que-wordpress.md" class="link">🚀 Qu'est-ce que WordPress ?</a>
-                <a href="wordpress/cours-installer-wordpress-local.md" class="link">⚙️ Installation locale</a>
-                <a href="wordpress/Roadmap-WordPress.md" class="link">🗺️ Roadmap complète</a>
-            </div>
-        </div>
-
-        <!-- Frontend Development Course Section -->
-        <div class="card course-section">
-            <h3>� Développement Frontend</h3>
-            <p>HTML5, CSS3, JavaScript moderne, frameworks populaires et bonnes pratiques.</p>
-            <div class="course-stats">
-                <span class="stat">📚 En préparation</span>
-                <span class="stat">⏱️ ~25h</span>
-                <span class="stat">🎯 Tous niveaux</span>
-            </div>
-            <div class="course-links">
-                <a href="#" class="link disabled">🔧 HTML5 & Sémantique</a>
-                <a href="#" class="link disabled">🎨 CSS3 & Flexbox/Grid</a>
-                <a href="#" class="link disabled">⚡ JavaScript ES6+</a>
-                <a href="#" class="link disabled">⚛️ React/Vue.js</a>
-            </div>
-        </div>
-
-        <!-- ASP.NET Core Course Section -->
-        <div class="card course-section">
-            <h3>� ASP.NET Core & C#</h3>
-            <p>Développement backend moderne avec ASP.NET Core, de l'initiation au déploiement Azure.</p>
-            <div class="course-stats">
-                <span class="stat">📚 En préparation</span>
-                <span class="stat">⏱️ ~30h</span>
-                <span class="stat">🎯 Débutant à Avancé</span>
-            </div>
-            <div class="course-links">
-                <a href="#" class="link disabled">📱 Débuter avec ASP.NET Core</a>
-                <a href="#" class="link disabled">🎯 C# pour les débutants</a>
-                <a href="#" class="link disabled">📧 Créer un formulaire de contact</a>
-                <a href="#" class="link disabled">☁️ Déployer sur Azure</a>
-            </div>
-        </div>
-
-        <!-- Course Categories Overview -->
-        <div class="card">
-            <h3>📋 Aperçu des formations</h3>
-            <div class="categories-grid">
-                <div class="category">
-                    <h4>🌐 CMS & WordPress</h4>
-                    <ul>
-                        <li>Installation et configuration</li>
-                        <li>Développement de thèmes</li>
-                        <li>Plugins et fonctionnalités avancées</li>
-                        <li>Optimisation et sécurité</li>
-                    </ul>
+    <div id="app">
+        <!-- Header principal -->
+        <header id="main-header" class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>🎓 iprij.com</h1>
+                    <span class="tagline">Formations développement web</span>
                 </div>
-                <div class="category">
-                    <h4>💻 Frontend</h4>
-                    <ul>
-                        <li>HTML5 sémantique</li>
-                        <li>CSS3 et design responsive</li>
-                        <li>JavaScript moderne</li>
-                        <li>Frameworks (React, Vue)</li>
-                    </ul>
-                </div>
-                <div class="category">
-                    <h4>🔧 Backend</h4>
-                    <ul>
-                        <li>ASP.NET Core</li>
-                        <li>C# programmation</li>
-                        <li>Base de données</li>
-                        <li>APIs RESTful</li>
-                    </ul>
+                <div class="header-actions">
+                    <input type="search" id="search-input" placeholder="Rechercher un cours..." class="search-input">
+                    <button id="menu-toggle" class="menu-toggle">☰</button>
                 </div>
             </div>
+        </header>
+
+        <!-- Layout principal -->
+        <div class="main-layout">
+            <!-- Sidebar navigation -->
+            <aside id="sidebar" class="sidebar">
+                <div class="sidebar-content">
+                    <div id="course-navigation" class="navigation">
+                        <!-- Navigation sera générée dynamiquement -->
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Contenu principal -->
+            <main id="content" class="content">
+                <div id="loading" class="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Chargement du cours...</p>
+                </div>
+                
+                <!-- Table des matières -->
+                <div id="table-of-contents" class="table-of-contents" style="display: none;">
+                    <div class="toc-header">
+                        <h3>📋 Sommaire</h3>
+                        <button id="toggle-toc" class="toggle-toc">Masquer</button>
+                    </div>
+                    <div id="toc-content" class="toc-content">
+                        <!-- Table des matières générée automatiquement -->
+                    </div>
+                </div>
+                
+                <div id="markdown-viewer" class="markdown-viewer">
+                    <!-- Contenu par défaut -->
+                    <div class="welcome-screen">
+                        <h1>🎓 Bienvenue sur iprij.com</h1>
+                        <p>Sélectionnez une formation dans le menu pour commencer</p>
+                        
+                        <div class="formations-grid">
+                            <div class="formation-card" data-formation="wordpress">
+                                <div class="card-icon">🌐</div>
+                                <h3>Formation WordPress</h3>
+                                <p>Maîtrisez WordPress de A à Z</p>
+                                <div class="card-stats">
+                                    <span>📚 15 cours</span>
+                                    <span>⏱️ ~20h</span>
+                                </div>
+                            </div>
+                            
+                            <div class="formation-card" data-formation="frontend">
+                                <div class="card-icon">💻</div>
+                                <h3>Frontend</h3>
+                                <p>HTML, CSS, JavaScript</p>
+                                <div class="card-stats">
+                                    <span>📚 3 cours</span>
+                                    <span>⏱️ ~4h</span>
+                                </div>
+                            </div>
+                            
+                            <div class="formation-card disabled" data-formation="backend">
+                                <div class="card-icon">🔥</div>
+                                <h3>ASP.NET Core</h3>
+                                <p>Développement backend</p>
+                                <div class="card-stats">
+                                    <span>📚 En préparation</span>
+                                    <span>⏱️ ~30h</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
         </div>
 
-        <div class="card">
-            <h3>📞 Questions & Support</h3>
-            <p>Besoin d'aide avec les cours ou un exercice ?</p>
-            <a href="mailto:contact@iprij.com" class="link">📧 Poser une question</a>
-            <a href="https://iprij.com/Contact" class="link">📝 Demander de l'aide</a>
-        </div>
-
-        <div class="github-link">
-            <a href="https://github.com/VOTRE_USERNAME/iprij-courses" class="link">
-                💻 Voir tous les cours sur GitHub
-            </a>
-        </div>
-
-        <div style="text-align: center; margin-top: 40px; color: #666; font-size: 14px;">
-            <p>Dernière mise à jour : 14 juillet 2025</p>
-            <p>© 2025 iprij.com - Plateforme de formations en développement web</p>
-        </div>
+        <!-- Footer -->
+        <footer id="main-footer" class="footer">
+            <div class="footer-content">
+                <p>© 2025 iprij.com - Plateforme de formations en développement web</p>
+                <div class="footer-links">
+                    <a href="mailto:contact@iprij.com">Contact</a>
+                    <a href="https://github.com/IPRIJ/iprij-courses">GitHub</a>
+                </div>
+            </div>
+        </footer>
     </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/css.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/php.min.js"></script>
+    <script src="app/router.js"></script>
+    <script src="app/app.js"></script>
 </body>
 </html>
