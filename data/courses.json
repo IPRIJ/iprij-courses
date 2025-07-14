@@ -1,0 +1,159 @@
+{
+  "formations": [
+    {
+      "id": "wordpress",
+      "title": "Formation WordPress",
+      "description": "Maîtrisez WordPress de A à Z : création de thèmes, développement avancé, et déploiement professionnel",
+      "icon": "🌐",
+      "level": "débutant à expert",
+      "duration": "~20h",
+      "courses": [
+        {
+          "id": "wp-001",
+          "title": "Qu'est-ce que WordPress ?",
+          "file": "wordpress/cours-qu-est-ce-que-wordpress.md",
+          "duration": "30min",
+          "completed": false
+        },
+        {
+          "id": "wp-002",
+          "title": "WordPress.org vs WordPress.com",
+          "file": "wordpress/cours-wordpress-org-vs-com.md",
+          "duration": "20min",
+          "completed": false
+        },
+        {
+          "id": "wp-003",
+          "title": "Principes de l'Open Source",
+          "file": "wordpress/cours-principes-open-source.md",
+          "duration": "45min",
+          "completed": false
+        },
+        {
+          "id": "wp-004",
+          "title": "Installer WordPress en local",
+          "file": "wordpress/cours-installer-wordpress-local.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "wp-005",
+          "title": "Familiarisation avec WordPress",
+          "file": "wordpress/cours-familiarisation-wordpress.md",
+          "duration": "1h",
+          "completed": false
+        },
+        {
+          "id": "wp-006",
+          "title": "Préparation environnement développement",
+          "file": "wordpress/cours-01-preparation-environnement-developpement-themes.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "wp-007",
+          "title": "Personnalisation des thèmes",
+          "file": "wordpress/cours-personnalisation-themes-wordpress.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "wp-008",
+          "title": "Concepts fondamentaux & hiérarchie",
+          "file": "wordpress/cours-02-concepts-fondamentaux-hierarchie-templates.md",
+          "duration": "2h",
+          "completed": false
+        },
+        {
+          "id": "wp-009",
+          "title": "Schema surcharge CSS thèmes enfants",
+          "file": "wordpress/schema-surcharge-css-themes-enfants.md",
+          "duration": "1h",
+          "completed": false
+        },
+        {
+          "id": "wp-010",
+          "title": "Design système CSS modulaire",
+          "file": "wordpress/cours-04-design-systeme-css-modulaire-responsive.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "wp-011",
+          "title": "Maîtrise de functions.php",
+          "file": "wordpress/cours-03-maitrise-functions-php-fonctionnalites-avancees.md",
+          "duration": "2h",
+          "completed": false
+        },
+        {
+          "id": "wp-012",
+          "title": "Intégration avancée & Custom Post Types",
+          "file": "wordpress/cours-05-integration-wordpress-avancee-custom-post-types-acf.md",
+          "duration": "2h",
+          "completed": false
+        },
+        {
+          "id": "wp-013",
+          "title": "Optimisation SEO technique",
+          "file": "wordpress/cours-optimisation-seo-technique-wordpress.md",
+          "duration": "1h",
+          "completed": false
+        },
+        {
+          "id": "wp-014",
+          "title": "Optimisation, sécurité & déploiement",
+          "file": "wordpress/cours-06-optimisation-securite-deploiement-production.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "wp-015",
+          "title": "Ressources développement thèmes",
+          "file": "wordpress/ressources-developpement-themes-wordpress.md",
+          "duration": "30min",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "frontend",
+      "title": "Développement Frontend",
+      "description": "HTML5, CSS3, JavaScript moderne, frameworks populaires et bonnes pratiques",
+      "icon": "💻",
+      "level": "tous niveaux",
+      "duration": "~4h",
+      "courses": [
+        {
+          "id": "fe-011",
+          "title": "Classes et le mot-clé 'this'",
+          "file": "frontend/javascript/fiche-js-classes-this.md",
+          "duration": "1h30",
+          "completed": false
+        },
+        {
+          "id": "fe-012",
+          "title": "Fetch API - Récupérer des données",
+          "file": "frontend/javascript/fiche-js-fetch-api.md",
+          "duration": "1h",
+          "completed": false
+        },
+        {
+          "id": "fe-014",
+          "title": "Galerie d'images interactive",
+          "file": "frontend/javascript/fiche-js-galerie-images.md", 
+          "duration": "1h",
+          "completed": false
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "title": "ASP.NET Core & C#",
+      "description": "Développement backend moderne avec ASP.NET Core, de l'initiation au déploiement Azure",
+      "icon": "🔥",
+      "level": "débutant à avancé",
+      "duration": "~30h",
+      "courses": []
+    }
+  ]
+}

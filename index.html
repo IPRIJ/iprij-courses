@@ -3,7 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documentation - iprij.com</title>
+            <!-- Frontend Development Course Section -->
+        <div class="card course-section">
+            <h3>💻 Développement Frontend</h3>
+            <p>HTML5, CSS3, JavaScript moderne, frameworks populaires et bonnes pratiques.</p>
+            <div class="course-stats">
+                <span class="stat">📚 2 cours disponibles</span>
+                <span class="stat">⏱️ ~25h</span>
+                <span class="stat">🎯 Tous niveaux</span>
+            </div>
+            <div class="course-links">
+                <a href="frontend/README.md" class="link">📚 Index de la formation</a>
+                <a href="frontend/javascript/fiche-js-fetch-api.md" class="link">🔗 Fetch API</a>
+                <a href="frontend/javascript/fiche-js-galerie-images.md" class="link">🖼️ Galerie d'images</a>
+                <a href="#" class="link disabled">⚡ JavaScript ES6+</a>
+            </div>
+        </div>tion - iprij.com</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -68,51 +83,153 @@
             text-align: center;
             margin-top: 30px;
         }
+        .course-section {
+            border-left: 4px solid #667eea;
+            background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
+        }
+        .course-stats {
+            display: flex;
+            gap: 15px;
+            margin: 15px 0;
+            flex-wrap: wrap;
+        }
+        .stat {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+        .course-links {
+            margin-top: 20px;
+        }
+        .link.disabled {
+            background: #ddd;
+            color: #999;
+            cursor: not-allowed;
+        }
+        .link.disabled:hover {
+            background: #ddd;
+        }
+        .categories-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .category {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 3px solid #667eea;
+        }
+        .category h4 {
+            margin: 0 0 15px 0;
+            color: #333;
+        }
+        .category ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .category li {
+            margin: 8px 0;
+            color: #555;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>🎓 Cours iprij.com</h1>
-        <p class="subtitle">Apprendre ASP.NET Core et C# étape par étape</p>
+        <h1>🎓 Plateforme de Formation iprij.com</h1>
+        <p class="subtitle">Formations complètes en développement web et technologies modernes</p>
         
         <div class="status">
             <strong>🎓 Statut :</strong> Cours en développement - Nouveau contenu ajouté régulièrement
         </div>
 
-        <div class="card">
-            <h3>📖 Projet d'étude</h3>
-            <p>Apprendre ASP.NET Core en créant un vrai site web avec formulaire de contact.</p>
-            <a href="https://iprij.com" class="link">🌐 Voir le résultat final</a>
-            <a href="https://localhost:5001" class="link">🔧 Version développement</a>
+        <!-- WordPress Course Section -->
+        <div class="card course-section">
+            <h3>🌐 Formation WordPress</h3>
+            <p>Maîtrisez WordPress de A à Z : création de thèmes, développement avancé, et déploiement professionnel.</p>
+            <div class="course-stats">
+                <span class="stat">📚 15 cours</span>
+                <span class="stat">⏱️ ~20h</span>
+                <span class="stat">🎯 Débutant à Expert</span>
+            </div>
+            <div class="course-links">
+                <a href="wordpress/README.md" class="link">� Index de la formation</a>
+                <a href="wordpress/cours-qu-est-ce-que-wordpress.md" class="link">🚀 Qu'est-ce que WordPress ?</a>
+                <a href="wordpress/cours-installer-wordpress-local.md" class="link">⚙️ Installation locale</a>
+                <a href="wordpress/Roadmap-WordPress.md" class="link">🗺️ Roadmap complète</a>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>🛠️ Technologies utilisées</h3>
-            <p><strong>Backend :</strong> ASP.NET Core 8.0, C#</p>
-            <p><strong>Frontend :</strong> HTML5, CSS3, Bootstrap 5, JavaScript</p>
-            <p><strong>Hébergement :</strong> Azure Web Apps</p>
-            <p><strong>Email :</strong> Office 365 / Microsoft 365</p>
-            <p><strong>Versioning :</strong> Git & GitHub</p>
+        <!-- Frontend Development Course Section -->
+        <div class="card course-section">
+            <h3>� Développement Frontend</h3>
+            <p>HTML5, CSS3, JavaScript moderne, frameworks populaires et bonnes pratiques.</p>
+            <div class="course-stats">
+                <span class="stat">📚 En préparation</span>
+                <span class="stat">⏱️ ~25h</span>
+                <span class="stat">🎯 Tous niveaux</span>
+            </div>
+            <div class="course-links">
+                <a href="#" class="link disabled">🔧 HTML5 & Sémantique</a>
+                <a href="#" class="link disabled">🎨 CSS3 & Flexbox/Grid</a>
+                <a href="#" class="link disabled">⚡ JavaScript ES6+</a>
+                <a href="#" class="link disabled">⚛️ React/Vue.js</a>
+            </div>
         </div>
 
-        <div class="card">
-            <h3>📚 Cours disponibles</h3>
-            <p>Cours complets pour maîtriser ASP.NET Core et C# en partant de zéro.</p>
-            <a href="#" class="link">� Débuter avec ASP.NET Core</a>
-            <a href="#" class="link">🎯 C# pour les débutants</a>
-            <a href="#" class="link">� Créer un formulaire de contact</a>
-            <a href="#" class="link">☁️ Déployer sur Azure</a>
+        <!-- ASP.NET Core Course Section -->
+        <div class="card course-section">
+            <h3>� ASP.NET Core & C#</h3>
+            <p>Développement backend moderne avec ASP.NET Core, de l'initiation au déploiement Azure.</p>
+            <div class="course-stats">
+                <span class="stat">📚 En préparation</span>
+                <span class="stat">⏱️ ~30h</span>
+                <span class="stat">🎯 Débutant à Avancé</span>
+            </div>
+            <div class="course-links">
+                <a href="#" class="link disabled">📱 Débuter avec ASP.NET Core</a>
+                <a href="#" class="link disabled">🎯 C# pour les débutants</a>
+                <a href="#" class="link disabled">📧 Créer un formulaire de contact</a>
+                <a href="#" class="link disabled">☁️ Déployer sur Azure</a>
+            </div>
         </div>
 
+        <!-- Course Categories Overview -->
         <div class="card">
-            <h3>🎯 Ce que vous allez apprendre</h3>
-            <ul>
-                <li>✅ <strong>C# fondamentaux</strong> - Variables, classes, méthodes</li>
-                <li>✅ <strong>ASP.NET Core</strong> - Pages Razor, MVC, API</li>
-                <li>✅ <strong>Formulaires web</strong> - Validation, sécurité</li>
-                <li>✅ <strong>Base de données</strong> - Entity Framework Core</li>
-                <li>✅ <strong>Déploiement Azure</strong> - Mise en production</li>
-            </ul>
+            <h3>📋 Aperçu des formations</h3>
+            <div class="categories-grid">
+                <div class="category">
+                    <h4>🌐 CMS & WordPress</h4>
+                    <ul>
+                        <li>Installation et configuration</li>
+                        <li>Développement de thèmes</li>
+                        <li>Plugins et fonctionnalités avancées</li>
+                        <li>Optimisation et sécurité</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h4>💻 Frontend</h4>
+                    <ul>
+                        <li>HTML5 sémantique</li>
+                        <li>CSS3 et design responsive</li>
+                        <li>JavaScript moderne</li>
+                        <li>Frameworks (React, Vue)</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h4>🔧 Backend</h4>
+                    <ul>
+                        <li>ASP.NET Core</li>
+                        <li>C# programmation</li>
+                        <li>Base de données</li>
+                        <li>APIs RESTful</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
         <div class="card">
@@ -129,8 +246,8 @@
         </div>
 
         <div style="text-align: center; margin-top: 40px; color: #666; font-size: 14px;">
-            <p>Dernière mise à jour : 13 juillet 2025</p>
-            <p>© 2025 iprij.com - Développé avec ❤️ et ASP.NET Core</p>
+            <p>Dernière mise à jour : 14 juillet 2025</p>
+            <p>© 2025 iprij.com - Plateforme de formations en développement web</p>
         </div>
     </div>
 </body>
